@@ -502,6 +502,10 @@ input {
         border-radius: 5px;
     }
 
+    .middle-number {
+        display: block;
+    }
+
     .middle-h2 {
         text-align: center;
     }
