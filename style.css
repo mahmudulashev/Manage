@@ -503,7 +503,7 @@ input {
     }
 
     .middle-number {
-        display: block;
+        display: none;
     }
 
     .middle-h2 {
