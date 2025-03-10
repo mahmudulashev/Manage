@@ -11,5 +11,13 @@
 *.xd
 *.fig
 
+style-guide.md
+.gitignore
+/design
+
 # Avoid your project being littered with annoying .DS_Store files!
 .DS_Store
+
+
+
+
