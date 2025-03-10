@@ -26,19 +26,21 @@ body {
 /* off-screen-menu */
 .off-screen-menu {
     background-color:  rgb(34, 37, 49);
-    width: 80%;
-    max-width: 450px;
+    width: 100%;
+    max-width: 600px;
     position: fixed;
     top: 0;
-    right: -450px;
+    right: -600px;
     display: flex;
     flex-direction: column;
     align-items: center;    
     justify-content: center;
     text-align: center;
-    font-size: 3rem;
+    font-size: 1.7rem;
     transition: .3s ease;
+    height: 100vh;
 }
+
 .off-screen-menu.active {
     right: 0;
 }
@@ -56,8 +58,8 @@ body {
 
 /* ham menu */
 .ham-menu {
-    height: 50px;
-    width: 40px;
+    height: 40px;
+    width: 30px;
     margin-left: auto;
     position: relative;
 }
@@ -333,6 +335,7 @@ h4 {
 .bottom-button {
     background: white;
     color: rgb(255, 100, 28);
+    cursor: pointer;
     
 }
 
@@ -420,15 +423,30 @@ input {
     margin: 3rem 0;
 }
 
+.footer-ul li a {
+    color: white;
+    list-style: none;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.footer-ul li a:hover {
+    color: rgb(255, 100, 28);
+}
+
+
+
+
+
 @media (max-width: 768px) {
     
 
     .header-wrapper {
-        padding-left: 3rem;
-        padding-right: 3rem;
+        padding-left: 2rem;
+        padding-right: 1rem;
         justify-content: space-between;
         align-items: center;
         text-align: center;
+        margin: 0;
     }
 
     nav, .header-wrapper a button {
@@ -461,7 +479,7 @@ input {
     }
 
     .hero-right img {
-        width: 99%;
+        width: 100%;
     }
 
     .hero-h2 {
